@@ -71,7 +71,7 @@ def register():
             flash(f"Error: {err}")
             return redirect(url_for('register'))
 
-    return render_template('registerpage.html')
+    return render_template('RegisterPage.html')
 
 @app.route('/booking/<HotelID>')
 def book(HotelID):
